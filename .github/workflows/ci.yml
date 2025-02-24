@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - '**'
-
+      
 jobs:
   docker-check:
     runs-on: ubuntu-latest
